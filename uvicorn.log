@@ -1,0 +1,198 @@
+INFO:     Started server process [19624]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 654, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/fastapi/routing.py", line 240, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/app/main.py", line 431, in _lifespan
+    await create_all_tables(engine)
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/app/core/database.py", line 80, in create_all_tables
+    async with engine.begin() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/engine.py", line 1088, in begin
+    async with conn:
+               ^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/base.py", line 121, in __aenter__
+    return await self.start(is_ctxmanager=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/ext/asyncio/engine.py", line 283, in start
+    await greenlet_spawn(self.sync_engine.connect)
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/util/concurrency.py", line 210, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 1287, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 895, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/pool/base.py", line 891, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 857, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 963, in connect
+    return await_(
+        AsyncAdapt_asyncpg_connection.create(
+    ...<4 lines>...
+        )
+    )
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/util/concurrency.py", line 167, in await_
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/util/concurrency.py", line 205, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/connectors/asyncio.py", line 378, in create
+    cls._handle_exception_no_connection(dbapi, error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/dialects/postgresql/asyncpg.py", line 841, in _handle_exception_no_connection
+    super()._handle_exception_no_connection(dbapi, error)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/connectors/asyncio.py", line 409, in _handle_exception_no_connection
+    raise error.with_traceback(exc_info[2])
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/sqlalchemy/connectors/asyncio.py", line 376, in create
+    connection = await connection_awaitable
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/asyncpg/connection.py", line 2443, in connect
+    return await connect_utils._connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<22 lines>...
+    )
+    ^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/asyncpg/connect_utils.py", line 1249, in _connect
+    raise last_error or exceptions.TargetServerAttributeNotMatched(
+    ...<2 lines>...
+    )
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/asyncpg/connect_utils.py", line 1218, in _connect
+    conn = await _connect_addr(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/asyncpg/connect_utils.py", line 1054, in _connect_addr
+    return await __connect_addr(params, True, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/asyncpg/connect_utils.py", line 1099, in __connect_addr
+    tr, pr = await connector
+             ^^^^^^^^^^^^^^^
+  File "/data/new-path/AI-Powered Dental Clinic Operations Platform/backend/.venv/lib/python3.13/site-packages/asyncpg/connect_utils.py", line 969, in _create_ssl_connection
+    tr, pr = await loop.create_connection(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        host, port)
+        ^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 2043, in create_connection
+  File "uvloop/loop.pyx", line 2020, in uvloop.loop.Loop.create_connection
+ConnectionRefusedError: [Errno 111] Connection refused
+
+ERROR:    Application startup failed. Exiting.
